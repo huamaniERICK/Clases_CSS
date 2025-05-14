@@ -1,10 +1,11 @@
 .peru{
-    height: 600px;
+    height: 300px;
     background: white;
     padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items:start;
+    
 }
 .peru article {
     height:150px ;
@@ -21,21 +22,39 @@
 .peru article.tercera{
     background: red;
 }
-
-
-
-.chile article{
-    height:150px;
-    width:120 px;
-    border:2px solid #000;
+.escudo{
+    height: 100px;
+    width: 100px;
 }
+.chile{
+    
+    height:50px;
+    background: white;
+    padding-top: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+
 .chile article.uno{
-    background: red;
-}
-.chile article.dos{
+    height:150px;
+    width: 150px;
+    border: 2px solid #000;
     background: blue;
 }
-.chile article.tres{
+.chile article.dos{
+    height:150px;
+    width: 300px;
+    border: 2px solid #000;
     background: white;
+}
+.rojo{
+    height:150px;
+    width: 453px;
+    background: red;
+    margin-left: 455px;
+    border: 2px solid #000;
+    
 }
 
