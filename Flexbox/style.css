@@ -1,0 +1,41 @@
+.peru{
+    height: 600px;
+    background: white;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+}
+.peru article {
+    height:150px ;
+    width: 120px;
+    border:2px solid #000;
+}
+.peru article.primera  {
+    background: red;
+    
+}
+.peru article.segunda{
+    background: white;
+}
+.peru article.tercera{
+    background: red;
+}
+
+
+
+.chile article{
+    height:150px;
+    width:120 px;
+    border:2px solid #000;
+}
+.chile article.uno{
+    background: red;
+}
+.chile article.dos{
+    background: blue;
+}
+.chile article.tres{
+    background: white;
+}
+
