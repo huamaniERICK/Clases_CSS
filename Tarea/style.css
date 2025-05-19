@@ -1,0 +1,47 @@
+.encabezado{
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+    background: orange;
+    display: flex;
+    border: 2px solid #000;
+    border-radius: 25px;
+}
+.cuerpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cuerpo article{
+    border: 1px solid #000;
+    border-radius: 25px;
+    margin: 20px 20px 20px 0px;
+}
+.cuerpo article.isquierda{
+    height: 400px;
+    width: 350px;
+    background: blue;
+    border: 2px solid #000;
+}
+.cuerpo article.centro{
+    height: 400px;
+    width: 700px;
+    background: green;
+    border: 2px solid #000;
+}
+.cuerpo article.derecha{
+    height: 400px;
+    width: 350px;
+    background: blue;
+    border: 2px solid #000;
+    border-radius: 25px;
+}
+.final{
+    height: 100px;
+    width: 100%;
+    background: red;
+    border: 2px solid #000;
+    border-radius: 20px;
+    
+}
