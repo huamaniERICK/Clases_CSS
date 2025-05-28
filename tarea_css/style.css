@@ -1,37 +1,28 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
 body{
     background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
+
     
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border: solid #000;
+    border-radius: 10px;
+    padding: 15px;
+    
+
+}
+.toyota{
+    font-size: medium;
 }
 
-nav{
-    background: grey;
-    height: 70px;
-    width: 90%;
-    border: 2px solid #000;
-    border-radius: 10px;
-}
-h1{
-    color: white;
-    text-align: start;
-    padding-left: 80px;
-    margin: 20px;
-}
-.menu{
-    display: inline-flex;
-    list-style-type: none;
-}
+
+
 nav a{
+
     text-decoration: none;
     color: red;
-    padding-left: 400px;
-    
+    padding-left: 50px;
     text-align: center;
 }
